@@ -2,5 +2,10 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
+    <classes>
+     <class name="ETOE.gJE.Testcase"/>
+      <class name="ETOE.gJE.Testcase2"/>
+      <class name="ETOE.gJE.Testcase3"/>
+    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
